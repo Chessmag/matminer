@@ -1936,7 +1936,7 @@ class LocalPropertyDifference(BaseFeaturizer):
     """
 
     def __init__(self, data_source=MagpieData(), weight='area',
-                 properties=('Electronegativity',), signed=False):
+                 properties=('Electronegativity'), signed=False):
         """ Initialize the featurizer
 
         Args:
